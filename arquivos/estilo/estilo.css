@@ -1,0 +1,197 @@
+/*Geral*/
+/* Todos os :hover estão direcionados a todos os elementos btn e input independente do local no html*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #1877f2;
+    border-radius: 20px;
+}
+.conteiner1 {
+    opacity: 1; /*/* opacity: 1; >> opacity = '0.2' JS*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0 1rem 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    position: relative;
+    height: 100vh;
+    background: #f0f2f5;
+}
+/*Cards*/
+.card1 {
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.card1 h1 {
+    color: #1877f2;
+    font-size: 38pt;
+    width: 100%;
+}
+.card1 p {
+    width: 100%;
+    font-size: 18pt;
+}
+.card2 {
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22rem;
+    height: 19.5rem;
+    color: #1877f2;
+    gap: 1rem;
+}
+/* Login*/
+.conteiner1 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 1rem 0 1rem;
+    width: 100%;
+}
+.conteiner1 input {
+    border: 1px solid #80808078;
+    border-radius: 5px;
+    width: 19rem;
+    padding: 0.7rem;
+}
+input:focus {
+    border: 1px solid #1877f2;
+}
+.btnentrar {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #1877f2;
+    width: 20.5rem;
+    color: #fff;
+    font-size: 16pt;
+    cursor: pointer;
+}
+.card2 p {
+    font-size: 13pt;
+}
+.card2 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btnnovaconta, .btncadastro {
+    padding: 0.5rem;
+    background: #42b72a;
+    width: 9.75rem;
+    color: #fff;
+    font-size: 12pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btnnovaconta:hover {
+    background: #3ca526;
+}
+h3 {
+    text-align: center;
+    color: #000;
+    font-size: 13pt;
+    padding: 1rem;
+}
+h3 em:hover {
+    text-decoration: underline;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -3rem;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+footer p {
+    color: #808080e3;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+footer small {
+    opacity: 0.3;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.2rem;
+    font-size: 10pt;
+}
+/* Section2 */
+.conteiner2 { /* >> display: none; >> display = 'flex' JS*/
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 24rem;
+    height: 35.5rem;
+    background: #fff; /*processo >> #fff */
+    border-radius: 10px;
+}
+.boxtitulo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #80808078;
+    padding: 0.5rem 1rem;
+}
+.boxtitulo button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: transparent;
+    font-size: 15pt;
+    cursor: pointer;
+}
+/* Cadastro*/
+.conteiner2 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.nome, .sobrenome, .email, .novasenha, .nascimento {
+    width: 20rem;
+    height: 1rem;
+    padding: 0.7rem;
+    border: 1px solid #80808078;
+    border-radius: 5px;
+}
+.informações {
+    font-size: 10pt;
+    width: 21rem;
+}
+.btncadastro {
+    margin: 0 0 1rem 0;
+    cursor: pointer;
+    transition: 0.2s;
+}

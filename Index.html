@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Arquivos/estilo/estilo.css" rel="stylesheet" />
+    <meta name="keywords" content="Pagina de cadastro, exemplo de cadastro, exemplo de pagina, Cadastro e login inspirado no logon e cadastro no facebook">
+    <meta name="description" content="Cadastro de contas, login de contas">
+    <meta name="author" content="Matheus P. Souza ">
+    <link rel="icon" type="image/svg" href="arquivos/img/icone_agenda.svg" />
+    <link href="arquivos/estilo/estilo.css" rel="stylesheet" />
+    <title>Cadastro de Clientes</title>
+</head>
+<body>
+    <section class="conteiner1">
+        <div class="card1">
+            <h1>Fakebook</h1>
+            <p>O Fakebook ajuda você a compartilhar suas informações pessoais com pessoas que não se importam com a sua vida</p>
+        </div>
+        <div class="card2">
+            <form action="" method="get">
+                <input type="text" class="emailoutelefone" placeholder="Email ou Telefone" />
+                <input type="password" class="senha" placeholder="Senha" />
+                <button class="btnentrar"><b>Entrar</b></button>
+            </form>
+            <p>Esqueceu a senha?</p>
+            <button class="btnnovaconta" onclick="abrircadastrar()">Criar nova conta</button>
+            <h3 class="btncriarpagina"><a href="#"><em>Criar uma pagina</em></a> para uma celebridade, uma marca ou uma empresa.</h3>
+        </div>
+    </section>
+    <section class="conteiner2">
+
+        <div class="boxtitulo">
+            <h1>Cadastre-se</h1>
+            <p>É rápido e fácil.</p>
+            <button class="btnfecharnovaconta" onclick="btnfecharnovaconta()"><b>X</b></button>
+        </div>
+
+        <form action="" method="get">
+
+            <input type="text" id="nome" autofocus class="nome" placeholder="Nome" />
+            <input type="text" id="novasenha" class="sobrenome" placeholder="Sobrenome" />
+            <input type="email" id="email" class="email" placeholder="E-mail" />
+            <input type="password" id="novasenha" class="novasenha" placeholder="Nova senha" />
+            <input type="date" id="nascimento" class="nascimento" placeholder="nascimento"/>
+
+            <p>Feminino</p><input type="radio" class="genero" name="btnsex" />
+            <p>Masculino</p><input type="radio" class="genero" name="btnsex" />
+            <p>Intersexo</p><input type="radio" class="genero" name="btnsex" />
+
+            <p class="informações">* Pagina de cadastro ficticia para evitar desentendimentos no Fakebook.</p>
+            <p class="informações" >* Ao clicar em Cadastre-se. Você não recebera notificações ou qualquer coisa do tipo. Não existe cadastro verdadeiro, pagina com fins de aprendizado e compartilhamento de conhecimentos.</p>
+            <button class="btncadastro">Cadastre-se</button>
+
+        </form>
+
+    </section>
+    <footer>
+        <p id="portugues">Porugues (brasil)</p>
+        <p id=" ingles">English (US)</p>
+        <small>Matheus p. Souza</small>
+    </footer>
+    <script src="Arquivos/script/script.js"></script>
+</body>
+</html>
